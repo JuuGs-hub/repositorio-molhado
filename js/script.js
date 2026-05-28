@@ -1,0 +1,21 @@
+
+
+
+function verificarLogin(){
+  
+   let login = document.getElementById("login").value;
+   let senha = document.getElementById("senha").value;
+   if (login === "Juan" && senha === "123456"){
+      alert("Seja bem vindo(a) " + login);
+      window.location.href="pagina2.html";
+    }
+    else{
+      alert("Usuário ou senha incorretos!");
+
+    }
+
+     login = document.getElementById("login").value = "";
+     senha = document.getElementById("senha").value = "";
+
+};
+
